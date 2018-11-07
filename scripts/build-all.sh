@@ -6,5 +6,5 @@ yarn build -p
 )
 (
 cd packages/tronbox
-yarn run prepare
+yarn build
 )

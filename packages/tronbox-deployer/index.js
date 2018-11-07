@@ -10,7 +10,6 @@ function Deployer(options) {
   options = options || {};
 
   expect.options(options, [
-    "provider",
     "network",
     "network_id"
   ]);
@@ -23,7 +22,6 @@ function Deployer(options) {
   });
   this.network = options.network;
   this.network_id = options.network_id;
-  this.provider = options.provider;
   this.basePath = options.basePath || process.cwd();
 };
 

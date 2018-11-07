@@ -44,6 +44,10 @@ function init(options) {
     return instance
   }
 
+  if (process.env.NODE_ENV === 'test' && !options) {
+    options = require('./tronbox.default').networks.test
+  }
+
   TronWrap.prototype = new _TronWeb(
     options.fullNode,
     options.solidityNode,

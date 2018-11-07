@@ -7,7 +7,7 @@ module.exports = {
   console: require("./lib/repl"),
   contracts: require("truffle-workflow-compile"),
   init: require("./lib/init"),
-  package: require("./lib/package"),
+  // package: require("./lib/package"),
   serve: require("./lib/serve"),
   test: require("./lib/test"),
   version: pkg.version

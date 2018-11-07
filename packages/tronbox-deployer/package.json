@@ -1,28 +1,20 @@
 {
-  "name": "truffle-deployer",
+  "name": "tronbox-deployer",
   "version": "2.0.7",
-  "description": "Light deployment module for easily deploying Ethereum contracts",
+  "description": "Light deployment module for easily deploying Solidity contracts",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-deployer.git"
-  },
   "keywords": [
-    "ethereum",
-    "truffle",
     "solidity",
     "deployment",
-    "contracts"
+    "contracts",
+    "tron"
   ],
   "author": "Tim Coulter <tim.coulter@consensys.net>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-deployer/issues"
-  },
-  "homepage": "https://github.com/trufflesuite/truffle-deployer#readme",
+  "homepage": "https://github.com/tronprotocol/tron-box/packages/tronbox-deployer#readme",
   "dependencies": {
     "truffle-contract": "^3.0.6",
     "truffle-expect": "^0.0.4"

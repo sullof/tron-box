@@ -6,7 +6,7 @@ var Require = require("truffle-require");
 var async = require("async");
 // var Web3 = require("web3");
 var expect = require("truffle-expect");
-var Deployer = require("truffle-deployer");
+var Deployer = require("tronbox-deployer");
 
 var TronWrap = require('tronwrap');
 var tronWrap;

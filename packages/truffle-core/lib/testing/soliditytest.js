@@ -1,6 +1,6 @@
 var TestCase = require("mocha/lib/test.js");
 var Suite = require("mocha/lib/suite.js");
-var Deployer = require("truffle-deployer");
+var Deployer = require("tronbox-deployer");
 var find_contracts = require("truffle-contract-sources");
 var compile = require("truffle-compile");
 var artifactor = require("truffle-artifactor");
